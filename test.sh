@@ -1,4 +1,9 @@
 #!/bin/bash
 # My first script
 
-echo "Hello World"
+git pull
+git add *
+git commit
+git push
+
+echo "update successful"
