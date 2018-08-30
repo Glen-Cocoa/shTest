@@ -1,6 +1,7 @@
 #!/bin/bash
 # git workflow 
-
+touch .gitignore
+echo 'test.sh' >> .gitignore
 git pull
 echo "You have pulled from your upstream remote"
 git add *
